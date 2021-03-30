@@ -10,7 +10,7 @@
 Wednesday](https://wiki.duke.edu/display/LIB/First+Wednesday+2020)
 Presentation
 
--   [Web slides](https://people.duke.edu/~jrl/foo.html) \|
+-   [Web slides](https://people.duke.edu/~jrl/dashboard_wednesday) \|
     Alternatively, slides can be downloaded from this repository
 -   [CDVS Workshop Attendance
     dashboard](https://people.duke.edu/~jrl/dvs/workshops/longitudinal_dashboard.html)
