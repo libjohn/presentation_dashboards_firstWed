@@ -162,6 +162,17 @@ Not mutually exclusive but Flexdashboards has a significantly lower barrier to e
     - Assess their workshop’s impact over time (as measured by attendance and registration)
     - See current semester attendance totals within the context of multi-year totals
 
+---
+class: center
+
+![](images/full_attendance.png# l-0 t-0 w-two-thirds h-80pct ofv absolute)
+![](images/full_demographics.png# w-third h-40pct t-0 r-0 ofv absolute)
+![](images/full_survey.png# w-third h-40pct t-40pct r-0 ofv absolute)
+![](images/slice_tables.jpg# l-0 t-80pct w-100pct ofv absolute)
+
+.absolute.w-5-12th.pa-3.l-4-12th.t-8-12th.ba.bw-4.br-4.bg-white-80[
+Collage of dashboard screens
+]
 
 ---
 layout: false
