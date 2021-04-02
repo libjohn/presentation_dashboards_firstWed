@@ -8,12 +8,13 @@ output:
   xaringan::moon_reader:
     lib_dir: libs    
     css:
-      - mystyles/xaringan-themer.css    # https://pkg.garrickadenbuie.com/xaringanthemer/articles/xaringanthemer.html
-      - mystyles/adirondack/apron.css   # https://story.xaprb.com/slides/adirondack/
-      - mystyles/adirondack.css
-      - mystyles/adirondack/descartes.css
-      - mystyles/adirondack/tachyons.min.css
-      # - "styles/story.css", "monoblock.css", 
+      - mystyles/xaringan-themer.css          #  fonts I do want https://pkg.garrickadenbuie.com/xaringanthemer/articles/xaringanthemer.html
+      - mystyles/adirondack/story.css         # https://story.xaprb.com/slides/adirondack/
+      - mystyles/adirondack/apron.css         # layout 
+      #- mystyles/adirondack/adirondack.css   # fonts I don't want
+      - mystyles/adirondack/descartes.css     # image positon 
+      - mystyles/adirondack/tachyons.min.css  # color, font weights, boxes
+      # - mystyles/adirondack/monoblock.css   # part of story/adirondack
       - mystyles/my-theme.css
     nature:
       ratio: '16:9'
@@ -29,14 +30,14 @@ options(htmltools.dir.version = FALSE)
 library(tidyverse)
 library(htmltools)
 tagList(rmarkdown::html_dependency_font_awesome())
-library(xaringanthemer)
-style_duo_accent(
-primary_color = "#012169",
-secondary_color = "#80B1D3",
-header_font_google = google_font("Josefin Sans"),
-text_font_google = google_font("Montserrat", "300", "300i"),
-code_font_google = google_font("Fira Mono")
-)
+# library(xaringanthemer)  # run once; or use the pre-run css found in mystyles (xaringan-themer.css)
+# style_duo_accent(
+# primary_color = "#012169",
+# secondary_color = "#80B1D3",
+# header_font_google = google_font("Josefin Sans"),
+# text_font_google = google_font("Montserrat", "300", "300i"),
+# code_font_google = google_font("Fira Mono")
+# )
 ```
 
 .footercc[
