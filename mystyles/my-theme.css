@@ -2,7 +2,7 @@
   position: absolute; 
   bottom: 11.6px; 
   left: 10px; 
-  color: #015469;
+  color: #80B1D3;
   font-size: xx-small;
 }
 
@@ -35,18 +35,10 @@ max-height: 200px;
 
 .title-slide h3{
   font-size: 100%;
-  color: grey;
-}
-
-.fa-2x{
-  color: #015469;
-}
-
-.special-box {
   color: #80B1D3;
 }
 
-.special-box2 {
+.fa-2x{
   color: #80B1D3;
 }
 
