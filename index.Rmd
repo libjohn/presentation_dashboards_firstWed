@@ -3,7 +3,7 @@ title: "<br>Dashboards"
 subtitle: "first wednesday"
 author: "John Little"
 institute: "Cntr for Data & Viz"
-date: "`r Sys.Date()`"
+date: "April 7, 2021"
 output:
   xaringan::moon_reader:
     lib_dir: libs    
