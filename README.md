@@ -16,7 +16,3 @@ Presentation
     dashboard](https://people.duke.edu/~jrl/dvs/workshops/longitudinal_dashboard.html)
 
 <img src="images/attendance.png" style="width; 10%">
-
-------------------------------------------------------------------------
-
-🚲
